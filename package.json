@@ -1,0 +1,19 @@
+{
+  "name": "ethereum-playground",
+  "version": "1.0.0",
+  "description": "Experimenting with web3 + node on a local ethereum node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonkovacs/ethereum-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonkovacs/ethereum-playground/issues"
+  },
+  "homepage": "https://github.com/brandonkovacs/ethereum-playground#readme"
+}
