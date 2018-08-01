@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/brandonkovacs/ethereum-playground/issues"
   },
-  "homepage": "https://github.com/brandonkovacs/ethereum-playground#readme"
+  "homepage": "https://github.com/brandonkovacs/ethereum-playground#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.35"
+  }
 }
