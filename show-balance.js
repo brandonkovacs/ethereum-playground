@@ -3,7 +3,7 @@ var Web3 = require('web3');
 
 // Settings
 var ETH_ADDRESS = process.env.ETH_ADDRESS || '';
-var ETH_PROVIDER = process.env.ETH_PROVIDER || 'http://localhost:8545'
+var ETH_PROVIDER = 'http://localhost:8545'
 
 // Connect to ethereum node
 var web3 = new Web3(new Web3.providers.HttpProvider(ETH_PROVIDER));
