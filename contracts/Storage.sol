@@ -15,4 +15,10 @@ contract Storage {
     function getData() public constant returns (string) {
         return _data;
     }
+
+    function kill() public {
+        if (msg.sender == _creator) {
+            selfdestruct(_creator);
+        }
+    }
 }
